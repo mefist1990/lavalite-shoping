@@ -1,0 +1,21 @@
+{
+    "name": "litepie/trans",
+    "description": "Trans bundle for Lavalite",
+    "keywords": ["lavalite", "trans"],
+    "license": "MIT",
+    "homepage": "https://github.com/Litepie/Trans",
+    "authors": [
+        {
+            "name": "Renfos Technologies Pvt. Ltd.",
+            "email": "info@renfos.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Litepie\\Trans\\": "" 
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "litepie/menu",
+    "description": "Menu bundle for Lavalite",
+    "keywords": ["lavalite", "menu"],
+    "license": "MIT",
+    "homepage": "https://github.com/Litepie/Menu",
+    "authors": [
+        {
+            "name": "Renfos Technologies Pvt. Ltd.",
+            "email": "info@renfos.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Litepie\\Menu\\": "" 
+        }
+    }
+}

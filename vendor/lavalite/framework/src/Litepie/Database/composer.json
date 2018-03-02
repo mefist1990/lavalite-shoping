@@ -1,0 +1,21 @@
+{
+    "name": "litepie/database",
+    "description": "Database bundle for Lavalite",
+    "keywords": ["lavalite", "database"],
+    "license": "MIT",
+    "homepage": "https://github.com/Litepie/Database",
+    "authors": [
+        {
+            "name": "Renfos Technologies Pvt. Ltd.",
+            "email": "info@renfos.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Litepie\\Database\\": "" 
+        }
+    }
+}

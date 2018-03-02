@@ -1,0 +1,21 @@
+{
+    "name": "litepie/form",
+    "description": "Form bundle for Lavalite",
+    "keywords": ["lavalite", "form"],
+    "license": "MIT",
+    "homepage": "https://github.com/Litepie/Form",
+    "authors": [
+        {
+            "name": "Renfos Technologies Pvt. Ltd.",
+            "email": "info@renfos.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Litepie\\Form\\": "" 
+        }
+    }
+}
