@@ -1,0 +1,15 @@
+.env
+*.zip
+._*
+/vendor
+/node_modules
+/public/uploads
+/public/themes/*
+/.idea
+Homestead.json
+Homestead.yaml
+
+/framework
+composer.develop.json
+composer.develop.lock
+composer.lock
