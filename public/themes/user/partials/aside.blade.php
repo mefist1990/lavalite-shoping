@@ -1,23 +1,23 @@
                 @if(get_guard('url') == 'user')
                     <div class="logo">
                         <a href="{!!url('home')!!}" class="logo-image">
-                            <img src="{!!theme_asset('img/logo-white.svg')!!}" alt="logo" title="Lavalite">
+                            <img src="{!!theme_asset('img/logo-white.png')!!}" alt="logo" title="Lavalite">
                         </a>
                     </div>
                     <div class="logo logo-mini">
                         <a href="{!!url('home')!!}" class="logo-image">
-                            <img src="{!!theme_asset('img/logo.svg')!!}" alt="logo-mini" title="Lavalite">
+                            <img src="{!!theme_asset('img/logo.png')!!}" alt="logo-mini" title="Lavalite">
                         </a>
                     </div>
                 @else
                     <div class="logo">
                         <a href="{!!url(get_guard('url'))!!}" class="logo-image">
-                            <img src="{!!theme_asset('img/logo-white.svg')!!}" alt="logo" title="Lavalite">
+                            <img src="{!!theme_asset('img/logo-white.png')!!}" alt="logo" title="Lavalite">
                         </a>
                     </div>
                     <div class="logo logo-mini">
                         <a href="{!!url(get_guard('url'))!!}" class="logo-image">
-                            <img src="{!!theme_asset('img/logo.svg')!!}" alt="logo-mini" title="Lavalite">
+                            <img src="{!!theme_asset('img/logo.png')!!}" alt="logo-mini" title="Lavalite">
                         </a>
                     </div>
                 @endif 

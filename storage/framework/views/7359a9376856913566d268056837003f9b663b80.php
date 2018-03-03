@@ -1,23 +1,23 @@
                 <?php if(get_guard('url') == 'user'): ?>
                     <div class="logo">
                         <a href="<?php echo url('home'); ?>" class="logo-image">
-                            <img src="<?php echo theme_asset('img/logo-white.svg'); ?>" alt="logo" title="Lavalite">
+                            <img src="<?php echo theme_asset('img/logo-white.png'); ?>" alt="logo" title="Lavalite">
                         </a>
                     </div>
                     <div class="logo logo-mini">
                         <a href="<?php echo url('home'); ?>" class="logo-image">
-                            <img src="<?php echo theme_asset('img/logo.svg'); ?>" alt="logo-mini" title="Lavalite">
+                            <img src="<?php echo theme_asset('img/logo.png'); ?>" alt="logo-mini" title="Lavalite">
                         </a>
                     </div>
                 <?php else: ?>
                     <div class="logo">
                         <a href="<?php echo url(get_guard('url')); ?>" class="logo-image">
-                            <img src="<?php echo theme_asset('img/logo-white.svg'); ?>" alt="logo" title="Lavalite">
+                            <img src="<?php echo theme_asset('img/logo-white.png'); ?>" alt="logo" title="Lavalite">
                         </a>
                     </div>
                     <div class="logo logo-mini">
                         <a href="<?php echo url(get_guard('url')); ?>" class="logo-image">
-                            <img src="<?php echo theme_asset('img/logo.svg'); ?>" alt="logo-mini" title="Lavalite">
+                            <img src="<?php echo theme_asset('img/logo.png'); ?>" alt="logo-mini" title="Lavalite">
                         </a>
                     </div>
                 <?php endif; ?> 
