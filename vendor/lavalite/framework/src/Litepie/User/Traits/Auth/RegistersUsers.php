@@ -67,14 +67,17 @@ trait RegistersUsers
      */
     function create(array $data)
     {
+        
         $guard = $this->getGuard();
         $this->check($guard);
 
         $data = [
             'name'      => $data['name'],
             'email'     => $data['email'],
+            'sex'       => $data['sex'],
             'password'  => bcrypt($data['password']),
             'api_token' => str_random(60),
+
         ];
 
         if (!config('litepie.user.verify_email')) {

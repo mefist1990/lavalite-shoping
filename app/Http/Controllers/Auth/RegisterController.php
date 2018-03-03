@@ -36,6 +36,7 @@ class RegisterController extends Controller
      */
     public function __construct()
     {
+        
         $this->setRedirectTo();
         $this->setTheme();
         $this->middleware('guest');

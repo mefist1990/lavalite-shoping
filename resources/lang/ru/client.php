@@ -10,6 +10,18 @@ return [
      */
 
     'register'          => 'Регистрация',
+    'sex'          => 'Пол',
+    'female'          => 'Женский',
+    'male'          => 'Мужской',
+    'or_be_classical'          => 'или обычный метод',
+    'username'          => 'Имя пользователя (логин)',
+    'password'          => 'Пароль',
+    'confirm_password'          => 'Повторите пароль',
+    'email'          => 'Почта (email)',
+    'i_agree_to_the_terms_and_conditions'          => 'Я согласен с <a href="#">условиями использования</a>.',
+    'register_now'          => 'Зарегистрируйтесь сейчас',
+
+
 
 
 ];
