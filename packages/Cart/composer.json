@@ -1,0 +1,21 @@
+{
+    "name": "laracart/cart",
+    "description": "Cart package for laracart.",
+    "keywords": ["lavalite", "Cart"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laracart\\Cart\\": "src/Laracart/Cart"
+        }
+    },
+    "minimum-stability": "dev"
+}

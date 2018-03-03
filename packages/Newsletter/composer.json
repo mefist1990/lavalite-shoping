@@ -1,0 +1,21 @@
+{
+    "name": "litecms/newsletter",
+    "description": "Newsletter package for litecms.",
+    "keywords": ["lavalite", "Newsletter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Litecms\\Newsletter\\": "src/Litecms/Newsletter"
+        }
+    },
+    "minimum-stability": "dev"
+}

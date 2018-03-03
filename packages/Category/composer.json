@@ -1,0 +1,21 @@
+{
+    "name": "laracart/category",
+    "description": "Category package for laracart.",
+    "keywords": ["lavalite", "Category"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laracart\\Category\\": "src/Laracart/Category"
+        }
+    },
+    "minimum-stability": "dev"
+}

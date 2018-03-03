@@ -1,0 +1,21 @@
+{
+    "name": "laracart/attribute",
+    "description": "Attribute package for laracart.",
+    "keywords": ["lavalite", "Attribute"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laracart\\Attribute\\": "src/Laracart/Attribute"
+        }
+    },
+    "minimum-stability": "dev"
+}

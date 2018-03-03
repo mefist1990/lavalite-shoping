@@ -1,0 +1,21 @@
+{
+    "name": "laracart/filter",
+    "description": "Filter package for laracart.",
+    "keywords": ["lavalite", "Filter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laracart\\Filter\\": "src/Laracart/Filter"
+        }
+    },
+    "minimum-stability": "dev"
+}
